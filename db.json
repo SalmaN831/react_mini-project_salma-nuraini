@@ -1,0 +1,39 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "judul": "Perahu Kertas",
+      "pengarang": "Dewi Lestari",
+      "penerbit": "Treudee Pustaka dan Bentang Pustaka",
+      "tahunTerbit": 2010
+    },
+    {
+      "id": 2,
+      "judul": "London Love Story",
+      "pengarang": "Tisa TS",
+      "penerbit": "Loveable",
+      "tahunTerbit": 2015
+    },
+    {
+      "id": 3,
+      "judul": "Dilan 1990",
+      "pengarang": "Pidi Baiq",
+      "penerbit": "Pastel Books",
+      "tahunTerbit": 2014
+    },
+    {
+      "judul": "Ayah",
+      "pengarang": "Andrea Hirata",
+      "penerbit": "Bentang Pustaka",
+      "tahunTerbit": "2015",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "judul": "Nanti Kita Cerita tentang Hari Ini",
+      "pengarang": " Marchella FP",
+      "penerbit": "POP Publishers",
+      "tahunTerbit": "2018"
+    }
+  ]
+}
