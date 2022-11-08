@@ -5,7 +5,6 @@ import Add from './components/Add';
 import Edit from './components/Edit';
 import Detail from './components/Detail';
 import Home from './components/Home';
-import Kategori from './components/Kategori';
 import './components/style.css'
 
 function App() {
@@ -14,12 +13,10 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/kategori' element={<Kategori />} />
           <Route path='/admin' element={<Admin />} />
           <Route path='/admin/create' element={<Add />} />
           <Route path='/admin/edit/:bookid' element={<Edit />} />
           <Route path='/detail/:bookid' element={<Detail />} />
-          <Route path='/kategori/detail/:bookid' element={<Detail />} />
         </Routes>
       </Router>
     </div>
