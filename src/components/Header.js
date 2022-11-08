@@ -12,7 +12,6 @@ function Header() {
             </header>
             <div className='d-flex justify-content-center navbar'>
                 <Link to="/" className='menu'>Home</Link>
-                <Link to="/kategori" className='menu'>Kategori</Link>
                 <Link to="/admin" className='menu'>Admin</Link>
             </div>
         </div>
