@@ -37,7 +37,8 @@ function Home() {
                                 return item
                             }
                         }).map(item =>
-                            <Card style={{ width: '18rem', margin: '3px', textAlign: 'left'}}>
+                            <Card style={{ width: '18rem', margin: '3px', textAlign: 'left', boxShadow: '2px 2px 2px rgba(0,0,0,0.8)',
+                            padding: '10px'}}>
                             <Card.Body className='d-flex flex-row justify-content-between' style={{color : "rgb(54, 39, 6)"}}>
                                 <div>
                                     <Card.Title>{item.judul}</Card.Title>
